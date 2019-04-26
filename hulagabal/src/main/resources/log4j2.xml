@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+	<Properties>
+		<Property name="basePath">C:\Users\Mitturaj.h\work\hulagabal
+		</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingFile name="fileLogger" fileName="${basePath}/app-info.log"
+			filePattern="${basePath}/app-info-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+		</RollingFile>
+		<RollingFile name="Logger" fileName="${basePath}/app-log.log"
+			filePattern="${basePath}/app-info-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+		</RollingFile>
+		<RollingFile name="takescreenshot" fileName="${basePath}/takescreenshot.log"
+			filePattern="${basePath}/app-info-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+		</RollingFile>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<!-- file-logger is ref to rolling file name: fileLogger -->
+		<Logger name="apachepoi" level="debug" additivity="true">
+			<appender-ref ref="fileLogger" level="debug" />
+		</Logger>
+		<!-- logger ref is here reference to Rolling File name:Logger -->
+		<Logger name="log4j2" level="debug" additivity="true">
+			<appender-ref ref="Logger" level="debug" />
+		</Logger>
+		<Logger name="takescreenshot" level="debug" additivity="true">
+			<appender-ref ref="takescreenshot" level="debug" />
+		</Logger>
+		<Root level="debug" additivity="false">
+			<appender-ref ref="console" />
+		</Root>
+	</Loggers>
+</Configuration>
