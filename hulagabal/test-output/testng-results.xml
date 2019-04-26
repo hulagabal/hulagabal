@@ -1,221 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="202" started-at="2019-04-26T05:32:36Z" finished-at="2019-04-26T05:32:36Z">
+  <suite name="Default suite" duration-ms="21360" started-at="2019-04-26T09:29:25Z" finished-at="2019-04-26T09:29:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="202" started-at="2019-04-26T05:32:36Z" finished-at="2019-04-26T05:32:36Z">
-      <class name="apachepoi.Poi1">
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="13" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
+    <test name="Default test" duration-ms="21360" started-at="2019-04-26T09:29:25Z" finished-at="2019-04-26T09:29:47Z">
+      <class name="seleniumWebdriver.RobotExample">
+        <test-method status="PASS" signature="start()[pri:0, instance:seleniumWebdriver.RobotExample@725bef66]" name="start" is-config="true" duration-ms="4005" started-at="2019-04-26T14:59:25Z" finished-at="2019-04-26T14:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="open()[pri:0, instance:seleniumWebdriver.RobotExample@725bef66]" name="open" duration-ms="16806" started-at="2019-04-26T14:59:29Z" finished-at="2019-04-26T14:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="takeScreeShotOnFailure(org.testng.ITestResult)[pri:0, instance:seleniumWebdriver.RobotExample@725bef66]" name="takeScreeShotOnFailure" is-config="true" duration-ms="0" started-at="2019-04-26T14:59:46Z" finished-at="2019-04-26T14:59:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
+                <![CDATA[[TestResult name=open status=SUCCESS method=RobotExample.open()[pri:0, instance:seleniumWebdriver.RobotExample@725bef66] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- takeScreeShotOnFailure -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:seleniumWebdriver.RobotExample@725bef66]" name="closeAll" is-config="true" duration-ms="534" started-at="2019-04-26T14:59:46Z" depends-on-methods="takescreenshot.BaseClass.takeScreeShotOnFailure" finished-at="2019-04-26T14:59:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj7]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj11]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-        <test-method status="PASS" signature="testusers(java.lang.String, java.lang.String)[pri:0, instance:apachepoi.Poi1@548a102f]" name="testusers" duration-ms="1" started-at="2019-04-26T11:02:36Z" data-provider="users" finished-at="2019-04-26T11:02:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj12]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testusers -->
-      </class> <!-- apachepoi.Poi1 -->
+        </test-method> <!-- closeAll -->
+      </class> <!-- seleniumWebdriver.RobotExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
