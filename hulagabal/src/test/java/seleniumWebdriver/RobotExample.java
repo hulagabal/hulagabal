@@ -7,13 +7,13 @@ import org.testng.annotations.Test;
 
 import takescreenshot.BaseClass;
 import video.VedioOne;
-import video.Video;
 
 public class RobotExample extends BaseClass {
 	
 	@Test
 	public void open() throws Exception{
-		VedioOne.start();
+		//Start recorder
+		VedioOne.start("open");
 	
 		driver.navigate().to("https://www.youtube.com/");
 		
@@ -30,6 +30,8 @@ public class RobotExample extends BaseClass {
 		Thread.sleep(2000);
 		driver.close();
 		
+		
+		//Stop recorder
 		VedioOne.stop();
 		
 		

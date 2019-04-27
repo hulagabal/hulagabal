@@ -24,7 +24,7 @@ import org.monte.screenrecorder.ScreenRecorder;
 
 public class Video {
 	public static final String USER_DIR = "user.dir";
-	public static final String DOWNLOADED_FILES_FOLDER = "downloadFiles";
+	public static final String DOWNLOADED_FILES_FOLDER = "videos";
 	private static ScreenRecorder screenRecorder;
 
 	public static void startRecording(String methodName) throws Exception {
