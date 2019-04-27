@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<listeners>
+<listener class-name="selenium.AnnotationTransformer" />
+<listener class-name="selenium.SuitListener" />
+<listener class-name="selenium.TestListeners" />
+
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="seleniumWebdriver.Test444"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
