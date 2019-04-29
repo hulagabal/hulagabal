@@ -7,7 +7,7 @@
 <listener class-name="selenium.TestListeners" />
 
 </listeners>
-  <test name="Test">
+  <test name="Test-Muttu">
     <classes>
       <class name="seleniumWebdriver.Test444"/>
     </classes>
