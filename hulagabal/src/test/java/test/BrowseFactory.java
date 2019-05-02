@@ -4,15 +4,19 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BrowseFactory {
 
-	private static WebDriver driver;
+	protected static WebDriver driver;
 
 	public static WebDriver getDriver() {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\Mitturaj.h\\Desktop\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();
+		ChromeOptions chromeOptions=new ChromeOptions();
+		chromeOptions.addArguments("--disable-extensions");
+		
+		driver = new ChromeDriver(chromeOptions);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);

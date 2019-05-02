@@ -18,6 +18,8 @@ public class SeleniumHQ extends BaseClass {
 		String title = driver.getTitle();
 		System.out.println(title);
 		softAssert.assertEquals(title, "Selenium - Web Browser ","Verifying title");
+		
+		TestPage page=new TestPage(driver);
 
 		TestPage test12 = PageFactory.initElements(driver, TestPage.class);
 

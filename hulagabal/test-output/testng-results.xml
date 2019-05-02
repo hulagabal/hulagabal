@@ -1,205 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="16" passed="13">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="234" started-at="2019-04-27T10:54:18Z" finished-at="2019-04-27T10:54:18Z">
+  <suite name="Default suite" duration-ms="18982" started-at="2019-05-02T07:25:46Z" finished-at="2019-05-02T07:26:05Z">
     <groups>
     </groups>
-    <test name="Test-Muttu" duration-ms="234" started-at="2019-04-27T10:54:18Z" finished-at="2019-04-27T10:54:18Z">
-      <class name="seleniumWebdriver.Test444">
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="16" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
+    <test name="Default test" duration-ms="18982" started-at="2019-05-02T07:25:46Z" finished-at="2019-05-02T07:26:05Z">
+      <class name="testmu.TestPage12">
+        <test-method status="PASS" signature="starteReport()[pri:0, instance:testmu.TestPage12@1fbc7afb]" name="starteReport" is-config="true" duration-ms="119" started-at="2019-05-02T12:55:46Z" finished-at="2019-05-02T12:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starteReport -->
+        <test-method status="PASS" signature="checkAlllinks()[pri:0, instance:testmu.TestPage12@1fbc7afb]" name="checkAlllinks" duration-ms="18562" started-at="2019-05-02T12:55:46Z" finished-at="2019-05-02T12:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlllinks -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testmu.TestPage12@1fbc7afb]" name="getResult" is-config="true" duration-ms="3" started-at="2019-05-02T12:56:04Z" finished-at="2019-05-02T12:56:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
+                <![CDATA[[TestResult name=checkAlllinks status=SUCCESS method=TestPage12.checkAlllinks()[pri:0, instance:testmu.TestPage12@1fbc7afb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj11]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mutturaj12]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="FAIL" signature="test444()[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="test444" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="testToFail()[pri:0, instance:testmu.TestPage12@1fbc7afb]" name="testToFail" duration-ms="3" started-at="2019-05-02T12:56:05Z" finished-at="2019-05-02T12:56:05Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -210,7 +37,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at seleniumWebdriver.Test444.test444(Test444.java:17)
+	at testmu.TestPage12.testToFail(TestPage12.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -240,108 +67,23 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test444 -->
-        <test-method status="PASS" signature="checkLogins(java.lang.String, java.lang.String)[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="checkLogins" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
+        </test-method> <!-- testToFail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testmu.TestPage12@1fbc7afb]" name="getResult" is-config="true" duration-ms="0" started-at="2019-05-02T12:56:05Z" finished-at="2019-05-02T12:56:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mutturaj7]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hulagabal7]]>
+                <![CDATA[[TestResult name=testToFail status=FAILURE method=TestPage12.testToFail()[pri:0, instance:testmu.TestPage12@1fbc7afb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkLogins -->
-        <test-method status="FAIL" signature="test444()[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="test444" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at seleniumWebdriver.Test444.test444(Test444.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testmu.TestPage12@1fbc7afb]" name="endReport" is-config="true" duration-ms="279" started-at="2019-05-02T12:56:05Z" finished-at="2019-05-02T12:56:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test444 -->
-        <test-method status="FAIL" signature="test444()[pri:0, instance:seleniumWebdriver.Test444@3c5a99da]" name="test444" duration-ms="0" started-at="2019-04-27T16:24:18Z" finished-at="2019-04-27T16:24:18Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at seleniumWebdriver.Test444.test444(Test444.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test444 -->
-      </class> <!-- seleniumWebdriver.Test444 -->
-    </test> <!-- Test-Muttu -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- endReport -->
+      </class> <!-- testmu.TestPage12 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
