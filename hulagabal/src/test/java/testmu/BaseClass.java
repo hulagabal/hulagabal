@@ -2,9 +2,13 @@ package testmu;
 
 import java.io.File;
 
+import org.junit.BeforeClass;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -17,9 +21,9 @@ public class BaseClass {
 
 	@BeforeTest
 	public void starteReport() {
-		extentReports = new ExtentReports(System.getProperty("user.dir") + "/test-outputSTMExtentReport.html", true);
+		extentReports = new ExtentReports(System.getProperty("user.dir") + "/test-output/STMExtentReport.html", true);
 		extentReports.addSystemInfo("Host Name", "SoftwareTestingMaterial")
-				.addSystemInfo("Environment", "Automation Testing").addSystemInfo("User Name", "Rajkumar SM");
+				.addSystemInfo("Environment", "Automation Testing").addSystemInfo("User Name", "Mutturaj Hulagabal");
 		// loading the external xml file (i.e., extent-config.xml) which was
 		// placed under the base directory
 		// You could find the xml file below. Create xml file in your project
@@ -40,8 +44,8 @@ public class BaseClass {
 		// HTML report
 		extentReports.endTest(logger);
 	}
-
-	@AfterTest
+	
+	@AfterClass
 	public void endReport() {
 		// writing everything to document
 		// flush() - to write or update test information to your report.
